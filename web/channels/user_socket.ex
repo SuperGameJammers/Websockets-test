@@ -3,7 +3,7 @@ defmodule PlayDoh.UserSocket do
 
   ## Channels
   # channel "rooms:*", PlayDoh.RoomChannel
-  channel "playrooms:*", PlayDoh.PlayroomChannel
+  channel "playrooms:*", PlayDoh.PlayroomsChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
